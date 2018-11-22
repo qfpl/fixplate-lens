@@ -17,7 +17,7 @@ cabal-version:       >=1.10
 
 library
   exposed-modules:     Data.Generics.Fixplate.Lens
-  build-depends:       base >=4.11 && <4.12
+  build-depends:       base >=4.11 && <5
                      , lens
                      , fixplate
   hs-source-dirs:      src
