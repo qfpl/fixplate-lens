@@ -14,4 +14,4 @@ let
 
 in
 
-  drv = variant (haskellPackages.callPackage f {})
+  variant (haskellPackages.callPackage f {})
